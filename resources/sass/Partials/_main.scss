@@ -1,8 +1,19 @@
 body{
-    background-color: aqua;
+    background-color: rgba(134, 255, 255, 0.3);
 
     h1{
-        color: red;
+        color: blue;
+        text-align: center;
+        padding: 20px;
+        font-size: 50px;
+    }
+
+    h3{
+        color: green;
+    }
+    .studenti{
+        display: inline-block;
+        margin: 28px;
     }
 }
 

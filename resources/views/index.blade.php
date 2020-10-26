@@ -9,15 +9,14 @@
 </head>
 <body>
     <h1>ELENCO STUDENTI</h1>
-    <table>
         @foreach ($students as $student)
-            <tr>
-            <td>{{$student->name}}</td>
-            <td>{{$student->lastname}}</td>
-            <td>{{$student->gender}}</td>
-            <td>{{$student->date_of_birth}}</td>
+        <div class="studenti">
+            <h3>Nome:</h3> {{$student->name}}
+            <h3>Cognome:</h3> {{$student->lastname}}
+            <h3> Sesso: </h3>{{$student->gender}}
+            <h3>Data di Nascita: </h3> {{$student->date_of_birth}}
+        </div>
 
-            </tr>
         @endforeach
     </table>
 </body>
